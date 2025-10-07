@@ -9,7 +9,11 @@ i numeri non multipli nè di 3 nè di 5 non ricevono "badge"`)
 
 /*SEZIONE CICLO FOR*/
 
-for(i = 1; i <= 100; i++){
+for(let i = 1; i <= 100; i++){
 //imposto la struttura del ciclo for(-i parte da 1 ed arriverà fino a 100)
-
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log(`${i} -FizzBuzz`)
+    //gestisco la prima condizione(se il numero è divisibile sia per 5 che per 3[operatore logico AND])
+    }
+}
 

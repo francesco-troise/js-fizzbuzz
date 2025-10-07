@@ -19,6 +19,10 @@ for(let i = 1; i <= 100; i++){
     }else if(i % 5 === 0){
         console.log(`${i} -Buzz`)
         //gestisco la seconda condizione(se il numero è divisibile solo per 5)
+
+    }else if(i % 3 === 0){
+        console.log(`${i} -Fizz`)
+        //gestisco la terza condizione(se il numero è divisibile solo per 3)
     }
     
 

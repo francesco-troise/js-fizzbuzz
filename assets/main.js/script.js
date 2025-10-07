@@ -13,18 +13,19 @@ for(let i = 1; i <= 100; i++){
 //imposto la struttura del ciclo for(-i parte da 1 ed arriverà fino a 100)
 
     if(i % 3 === 0 && i % 5 === 0){
-        console.log(`${i} -FizzBuzz`)
+        console.log(`${i} -FizzBuzz`);
         //gestisco la prima condizione(se il numero è divisibile sia per 5 che per 3[operatore logico AND])
     
-    }else if(i % 5 === 0){
-        console.log(`${i} -Buzz`)
+    } else if(i % 5 === 0){
+        console.log(`${i} -Buzz`);
         //gestisco la seconda condizione(se il numero è divisibile solo per 5)
 
-    }else if(i % 3 === 0){
-        console.log(`${i} -Fizz`)
+    } else if(i % 3 === 0){
+        console.log(`${i} -Fizz`);
         //gestisco la terza condizione(se il numero è divisibile solo per 3)
+    } else{
+        console.log(i);
+        //gestisco il caso in cui no si attivi nessuna condizione(numero non divisbile per 3 o 5)
     }
-    
-
 }
 
